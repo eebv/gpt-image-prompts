@@ -1,0 +1,11 @@
+{
+  "id": "clean-girl-portrait",
+  "title": "Clean Girl Portrait",
+  "use_case": "头像",
+  "style": "写实",
+  "model": "gpt-image-1",
+  "tags": ["女生", "自然光", "高级感"],
+  "aspect_ratio": "1:1",
+  "cover": "image.webp",
+  "created_at": "2026-05-03"
+}
