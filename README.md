@@ -1,113 +1,293 @@
-# GPT-image Prompt Library
+# Awesome GPT-image Prompt Engineering
 
-一个专门收录 **GPT-image 生图提示词案例** 的仓库。
+[中文说明](./README.zh-CN.md) | English
 
-目标：
-- 方便在 GitHub 中长期沉淀案例
-- 每条案例都能保留图片、提示词、元数据
-- 后期可直接导入网站，做搜索、筛选、分类展示
+> This project is not about whether AI *can* generate a beautiful image.  
+> It is about how to generate **the exact image you want** faster, more reliably, and with far more control.
 
-## 目录结构
+An open project focused on **GPT-image / GPT Image 2 prompt engineering**.
+
+This repository is not just a pile of prompts or pretty examples.  
+It is built to train a **modular, composable, reusable** way of thinking about image generation:
+
+- photography style
+- camera language
+- scene setup
+- character description
+- lighting control
+- composition
+- color and atmosphere
+- material details
+- emotion
+- typography
+
+The goal is not to memorize prompts.  
+The goal is to grow from “someone who can write prompts” into “someone who truly understands prompt engineering.”
+
+---
+
+## What problem does this repo solve?
+
+This project is not trying to answer:
+
+- Can AI generate a good image?
+
+It is trying to answer:
+
+- How do I get the image in my head faster?
+- How do I turn vague taste into controllable prompt modules?
+- How do I move from random output to stable output?
+- How do I build my own prompt engineering system?
+
+In short:
+
+**A good image is not the point.**  
+**Getting good images on purpose is the point.**
+
+---
+
+## Core Idea: Prompt Engineering as Modular Design
+
+A strong prompt is often not the result of one lucky paragraph.  
+It is the result of multiple modules working together.
+
+For example, one image may be shaped by:
+
+- Photography style: cinematic / editorial / documentary / studio
+- Scene setup: cafe / street / luxury apartment / futuristic city
+- Character description: age, vibe, outfit, pose, expression, identity
+- Camera & composition: close-up / mid shot / wide shot / top-down
+- Lighting: soft light / rim light / neon / golden hour
+- Atmosphere: moody / dreamy / clean / luxury / lonely
+- Material details: skin texture / fabric / glass / metal / fog
+
+So this repository is not only showing results.  
+It is teaching you:
+
+- how to break prompts down
+- how to combine modules
+- how to tune variables
+- how to build repeatable control
+
+---
+
+## Repo Structure
 
 ```text
+principles/
+  prompt engineering principles, methods, and breakdown logic
+
+modules/
+  reusable prompt modules
+  such as lighting, camera, character, scene, atmosphere, material
+
+recipes/
+  prompt formulas and reusable compositions
+
 examples/
-  <用途>/
-    <风格>/
-      <案例ID>/
-        image.webp
-        prompt.md
-        meta.json
+  final cases used to validate module combinations
 
 data/
-  prompts.json
-  tags.json
-  categories.json
+  structured data for future websites
 
 scripts/
-  build-index.js
-
-templates/
-  case/
-    prompt.md
-    meta.json
+  indexing scripts
 ```
 
-## 内容组织规则
+---
 
-- 第一层：用途
-  - 头像
-  - 海报
-  - 电商图
-  - 场景图
-  - 产品图
-- 第二层：风格
-  - 写实
-  - 电影感
-  - 插画
-  - 二次元
-  - 极简
+## Learning Path
 
-## 单条案例规范
+This repository is designed to grow along a learning path:
 
-每条案例一个独立文件夹，至少包含：
+### 1. Principles
 
-- `image.webp`：生成图片
-- `prompt.md`：完整提示词
-- `meta.json`：结构化元数据
+Build your judgment first:
 
-## 快速开始
+- What makes a prompt controllable?
+- What makes a prompt modular?
+- Why are many long prompts hard to reuse?
+- How do you move from “describing results” to “controlling variables”?
 
-### 1. 新增一个案例
+### 2. Modules
 
-复制模板：
+Then build reusable blocks:
+
+- photography modules
+- scene modules
+- character modules
+- lighting modules
+- atmosphere modules
+- detail modules
+
+### 3. Recipes
+
+Then learn composition:
+
+- portrait formulas
+- poster formulas
+- e-commerce formulas
+- scene formulas
+- product-shot formulas
+
+### 4. Examples
+
+Finally validate with actual outputs:
+
+- which module combination produced which effect
+- which small changes created visible differences
+
+---
+
+## Categories
+
+Final cases are organized by **use case > style**.  
+Methods and modules are organized by **control dimensions**.
+
+### Use cases
+
+- Portrait
+- Poster
+- E-commerce
+- Scene
+- Product Shot
+- Social Cover
+
+### Styles
+
+- Realistic
+- Cinematic
+- Illustration
+- Anime
+- Minimal
+- Trendy
+
+### Module dimensions
+
+- photography style
+- camera language
+- scene setup
+- character description
+- lighting control
+- composition
+- atmosphere
+- material detail
+- color control
+- typography
+
+---
+
+## First Real Case
+
+The first real case is already in the repo:
+
+- [Shanghai Bund Rooftop Portrait](./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/shanghai-bund-rooftop-portrait/)
+
+This case clearly shows how several modules stack together:
+
+- landmark scene: The Bund + Oriental Pearl Tower + Lujiazui skyline
+- atmosphere control: golden-hour dusk + city-light bokeh
+- photography language: 35mm film aesthetic + black mist filter
+- character description: refined facial features + relaxed pose + wind-blown hair
+- material details: linen shirt, skin texture, film grain
+
+---
+
+## For builders, creators, and prompt engineers
+
+If you are not looking for “one lucky good image,” but for:
+
+- more stable output
+- faster iteration
+- clearer style control
+- higher hit rate
+- lower trial-and-error cost
+
+then this repository is for you.
+
+---
+
+## How to use this repo
+
+You can use this repository as four things:
+
+### 1. A principles library
+
+Read `principles/` to understand the logic behind controllable prompting.
+
+### 2. A module library
+
+Read `modules/` to collect reusable control blocks.
+
+### 3. A recipe library
+
+Read `recipes/` to reuse tested prompt formulas.
+
+### 4. An example library
+
+Read `examples/` to validate how combinations behave in practice.
+
+---
+
+## Data-first, website-ready
+
+Although this project is built for learning and sharing,  
+its underlying structure is also ready for future websites.
+
+Future frontends can directly consume:
+
+- `data/prompts.json`
+- `data/tags.json`
+- `data/categories.json`
+
+to support:
+
+- search
+- category filtering
+- tag filtering
+- module filtering
+- model filtering
+
+---
+
+## Add a new item
+
+There are four main contribution directions:
+
+- add a principle document to `principles/`
+- add a prompt module to `modules/`
+- add a prompt recipe to `recipes/`
+- add a final case to `examples/`
+
+Cases still use:
 
 ```text
-templates/case/
+examples/<use-case>/<style>/<case-id>/
 ```
 
-然后新建到：
+and include:
 
-```text
-examples/<用途>/<风格>/<案例ID>/
-```
+- `image.webp` or `image.png`
+- `prompt.md`
+- `meta.json`
 
-### 2. 生成网站索引
+Rebuild the index with:
 
 ```bash
 node scripts/build-index.js
 ```
 
-或：
+---
 
-```bash
-npm run build:index
-```
+## Vision
 
-## 数据输出说明
+I do not want this to become just another prompt dump.
 
-索引脚本会生成：
+I want it to become a genuinely useful:
 
-- `data/prompts.json`：全部案例主索引
-- `data/tags.json`：标签列表
-- `data/categories.json`：分类结构
+- GPT-image prompt engineering library
+- modular image-generation knowledge base
+- training ground from beginner to expert
+- public-facing project that can later evolve into a real product
 
-后期网站可直接读取这些 JSON 做：
-
-- 搜索
-- 用途筛选
-- 风格筛选
-- 标签筛选
-- 模型筛选
-
-## 推荐维护方式
-
-- 图片尽量统一为 `webp`
-- `案例ID` 用英文短横线命名
-- 每次新增案例后，重新跑一次索引脚本
-
-## 后续可扩展
-
-- 静态站点展示
-- 在线搜索筛选
-- 自动生成预览页
-- 投稿 PR 工作流
+If that direction resonates with you, feel free to star the repo.

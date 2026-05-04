@@ -4,14 +4,20 @@
 github-eebv-gpt-image2
 
 ## 目的
-建设一个以 GPT-image 生图提示词为核心的案例资料库，优先支持：
+建设一个以 GPT-image 提示词工程为核心的公开项目，优先支持：
+- 模块化提示词方法沉淀
+- 提示词工程训练与传播
 - GitHub 内人工维护
 - 后期网站直接读取结构化数据
 - 搜索 / 分类 / 标签筛选
 
 ## 当前目标
-完成第一版仓库骨架：
-- 内容目录 `examples/`
+完成第一版“提示词工程库”骨架：
+- 方法目录 `principles/`
+- 模块目录 `modules/`
+- 配方目录 `recipes/`
+- 案例目录 `examples/`
+- 中英文双版仓库说明
 - 数据索引目录 `data/`
 - 索引脚本 `scripts/build-index.js`
 - 项目说明与投稿规范
@@ -24,7 +30,12 @@ github-eebv-gpt-image2
 - Node.js（用于生成索引）
 
 ## 目录约定
-- `examples/`：人工维护的案例内容
+- `principles/`：提示词工程原则 / 方法论
+- `modules/`：可复用提示词模块
+- `recipes/`：组合公式 / prompt recipes
+- `examples/`：最终案例验证内容
+- `README.md`：英文首页
+- `README.zh-CN.md`：中文首页
 - `data/`：网站读取的结构化索引
 - `scripts/`：索引生成脚本
 - `templates/`：新增案例模板
@@ -53,3 +64,9 @@ github-eebv-gpt-image2
   - `blog`
 - 当前剩余仓库：
   - `42cf-skill`
+
+## 当前仓库状态
+- 新仓库已创建：`eebv/gpt-image-prompts`
+- 仓库地址：
+  - `https://github.com/eebv/gpt-image-prompts`
+- 当前本地目录已初始化 git 并成功推送到 `main`

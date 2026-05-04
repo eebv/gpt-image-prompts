@@ -1,30 +1,92 @@
 # Contributing
 
-## 新增案例步骤
+[中文说明](./CONTRIBUTING.zh-CN.md) | English
 
-1. 在 `examples/<用途>/<风格>/<案例ID>/` 下创建新目录
-2. 放入图片：`image.webp`
-3. 按模板编写 `prompt.md`
-4. 按模板编写 `meta.json`
-5. 运行：
+This repository is no longer just a case collection.  
+It is a **GPT-image prompt engineering library**.
+
+There are four main contribution types:
+
+- Principles: `principles/`
+- Modules: `modules/`
+- Recipes: `recipes/`
+- Examples: `examples/`
+
+## 1. Add a principle
+
+Best placed in:
+
+- `principles/`
+
+Examples:
+
+- what makes a prompt modular
+- how to improve controllability
+- how to break ideas into variables
+- how to remove vague or low-value wording
+
+## 2. Add a module
+
+Best placed in:
+
+- `modules/`
+
+Examples:
+
+- photography style modules
+- scene modules
+- character modules
+- lighting modules
+- atmosphere modules
+- material modules
+
+## 3. Add a recipe
+
+Best placed in:
+
+- `recipes/`
+
+Examples:
+
+- portrait prompt formulas
+- poster prompt formulas
+- e-commerce formulas
+- product-shot formulas
+
+## 4. Add an example
+
+Examples validate how module combinations behave.
+
+Directory format:
+
+```text
+examples/<use-case>/<style>/<case-id>/
+```
+
+Steps:
+
+1. Add the image as `image.webp` or `image.png`
+2. Write `prompt.md`
+3. Write `meta.json`
+4. Run:
 
 ```bash
 node scripts/build-index.js
 ```
 
-6. 确认 `data/*.json` 已更新
+5. Confirm `data/*.json` was updated
 
-## 命名规则
+## Naming rules
 
-- `案例ID` 使用英文小写短横线
-- 示例：
+- Use lowercase kebab-case for `case-id`
+- Examples:
   - `clean-girl-portrait`
   - `cyber-movie-poster`
   - `minimal-skincare-product-shot`
 
-## 建议字段
+## Recommended example metadata fields
 
-`meta.json` 建议至少包含：
+`meta.json` should include at least:
 
 - `id`
 - `title`
@@ -36,15 +98,17 @@ node scripts/build-index.js
 - `cover`
 - `created_at`
 
-## 图片建议
+## Image recommendations
 
-- 优先使用 `webp`
-- 保持主图文件名固定为 `image.webp`
+- Prefer `webp`
+- Keep the main image filename stable: `image.webp` or `image.png`
 
-## 提示词建议
+## Prompt recommendations
 
-- `prompt.md` 中保留完整原始提示词
-- 如果有补充说明，可单独加：
-  - 场景说明
-  - 风格说明
-  - 可替换变量
+- Keep the full original prompt
+- Prefer modular prompt writing
+- If useful, also include:
+  - scene notes
+  - style notes
+  - control variables
+  - replaceable modules

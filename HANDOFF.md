@@ -10,15 +10,24 @@
 - 创建初始目录结构
 - 创建 README / CONTRIBUTING / 模板 / 索引脚本
 - 清理 eebv 账号旧仓库 3 个
+- 创建 GitHub 仓库并完成首次推送
+- 将 README 改为更适合传播的 awesome 风格首页
+- 将项目定位从“案例库”升级为“提示词工程库”
+- 新增 `principles/`、`modules/`、`recipes/` 结构
+- 从 `C:\Users\user\Downloads` 导入首条真实案例
+- 增加中英文双版 README / CONTRIBUTING
 
 ## 当前进行中
 - 等待补充首批真实案例
 
 ## 下一步
-- 如需继续，可初始化 git 并准备首批案例
+- 继续导入更多真实案例内容
+- 准备首批方法论 / 模块 / 配方内容
 - 可补一个示例案例作为演示
 - 可继续加一个批量创建案例模板的小脚本
-- 在 eebv 账号下创建新的 GPT-image 仓库并推送当前项目
+- 如需继续，可补仓库 topics / description / social preview
+- 后续可继续把 Featured Cases 换成真实案例预览
+- 可继续给首条案例补封面预览图展示
 
 ## 最近改动文件
 - `PROJECT_CONTEXT.md`
@@ -46,3 +55,17 @@
   - `blog`
 - 再次查询账号仓库，确认当前仅剩：
   - `42cf-skill`
+- 已创建并推送：
+  - `https://github.com/eebv/gpt-image-prompts`
+- 本地 git 当前已正常跟踪：
+  - `origin/main`
+- 运行 `node scripts/build-index.js`
+- 输出：`Indexed 0 prompt case(s).`
+- README 新结构已本地复核通过
+- 已导入首条案例：
+  - `examples/头像/电影感/shanghai-bund-rooftop-portrait/`
+- 当前仓库文档已支持：
+  - `README.md` 英文版
+  - `README.zh-CN.md` 中文版
+  - `CONTRIBUTING.md` 英文版
+  - `CONTRIBUTING.zh-CN.md` 中文版
