@@ -1,0 +1,14 @@
+{
+  "id": "0007",
+  "title": "Case 0007",
+  "use_case": "头像",
+  "style": "电影感",
+  "model": "gpt-image",
+  "prompt": "Japanese negative film aesthetic, late-night last train scene, soft cold fluorescent lighting mixed with subtle motion blur, slight overexposure highlights, low contrast, muted desaturated tones, subtle film grain, candid snapshot feeling, imperfect composition\r\n\r\ninside a nearly empty train carriage, quiet and still, faint reflections on the window glass, city lights streaking softly outside\r\n\r\na stunning beautiful Japanese idol with a subtle sensual presence, slender natural body line, effortless charm, slightly distant and emotionally unreadable\r\n\r\noutfit: slightly oversized white shirt with a few top buttons undone, revealing a hint of collarbone and inner layer, paired with a short skirt; sheer black stockings; the shirt slightly slipping off one shoulder naturally, not intentional; soft fabric wrinkles adding realism\r\n\r\npose: sitting by the window, legs gently crossed or slightly angled, one hand loosely holding a phone resting near her thigh, the other lightly touching the seat or brushing hair; posture relaxed, slightly leaning, body language open but unguarded\r\n\r\nexpression: calm, distant gaze, eyes half-lidded, lips slightly parted, looking outside or briefly toward camera without intention\r\n\r\nhair: slightly messy natural dark hair, soft strands falling around the face, subtle movement\r\n\r\nmood: quiet, intimate, late-night solitude, “moment between moments”, subtle sensuality through natural posture and accidental exposure, not posed, not performative",
+  "negative_prompt": "",
+  "tags": [],
+  "aspect_ratio": "",
+  "cover": "image.png",
+  "created_at": "2026-05-04T14:30:14.229Z",
+  "notes": "Imported automatically from inbox."
+}

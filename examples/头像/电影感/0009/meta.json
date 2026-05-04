@@ -1,0 +1,14 @@
+{
+  "id": "0009",
+  "title": "Case 0009",
+  "use_case": "头像",
+  "style": "电影感",
+  "model": "gpt-image",
+  "prompt": "1girl, live-action cosplay of [Name], photorealistic young woman, ultra-realistic skin texture, multiple views, 4-page magazine layout, fashion magazine spread, photo collage, wearing various different swimsuits, diverse colors and patterns, different hairstyles, varied dynamic poses, no repeated poses, expressive faces, (shy:1.1), (seductively biting lip:1.1), confident expression, playful tongue out, magazine title, stylish catchphrases, typography, small handwritten signature text \"eebv\" in the bottom-right corner, clean professional lighting, clear atmosphere, minimal visual effects, no excessive glitter, no heavy grain, perfect anatomy, accurate limbs, harmonious and well-balanced composition, highly detailed, 8k, masterpiece, fashion editorial photography.\r\n\r\nNegative Prompt:\r\nugly, deformed, poorly drawn, bad anatomy, bad hands, extra fingers, missing limbs, distorted limbs, messy layout, excessive glitter, heavy noise, overly dramatic lighting, over-sharpened, cluttered background, cartoon, 3d render, illustration, text outside of layout design.",
+  "negative_prompt": "",
+  "tags": [],
+  "aspect_ratio": "",
+  "cover": "image.png",
+  "created_at": "2026-05-04T14:30:14.234Z",
+  "notes": "Imported automatically from inbox."
+}

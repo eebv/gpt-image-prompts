@@ -1,0 +1,14 @@
+{
+  "id": "0018",
+  "title": "Case 0018",
+  "use_case": "头像",
+  "style": "电影感",
+  "model": "gpt-image",
+  "prompt": "Prompt:\r\ncinematic vertical movie poster, modern military realism, modern warfare, 1girl, 4boys, layered vertical composition, ensemble cast, (right side close-up profile of male soldier:1.2), helmet, (night vision goggle unit:1.1), (NVG:1.1), tactical gear, detailed patches, (orange tinted goggles:1.1), calm expression, resolute gaze, (upper left profile close-up of short-haired female soldier:1.1), tactical scarf, (holding military knife:1.1), focused expression, (left center mature male soldier:1.1), communication headsets, (tactical sunglasses:1.1), looking down, alert, (lower center young soldier:1.1), frontal alert pose, (holding assault rifle:1.1), (immediate foreground bottom aimed soldier hands and rifle barrel:1.2), creating strong depth of field, all soldiers in varied modern tactical gear and camouflage, war-torn modern city ruins, smoke, smoke plume, fire embers, debris, helicopters in sky, tense global anti-terrorism operation atmosphere, strong cinematic lighting, heavy volume rays, dust motes, gritty texture, film grain, highly detailed, 8k resolution, cinematic lighting, ultra-realistic rendering, epic feel, emphasized military realism, grimy style, low saturation, cold-toned color palette.\r\n\r\nNegative Prompt:\r\nugly, deformed, poorly drawn, plastic skin, digital over-sharpening, overly retouched, unnatural anatomy, bad hands, extra fingers, missing fingers, floating limbs, cartoon, illustration, anime, low resolution, blurry, studio artificial lighting, over-saturated, bright colors, clean uniform, smiling faces, cheerful mood, non-military equipment, civilian background.",
+  "negative_prompt": "",
+  "tags": [],
+  "aspect_ratio": "",
+  "cover": "image.png",
+  "created_at": "2026-05-04T14:30:14.261Z",
+  "notes": "Imported automatically from inbox."
+}

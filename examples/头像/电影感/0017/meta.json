@@ -1,0 +1,14 @@
+{
+  "id": "0017",
+  "title": "Case 0017",
+  "use_case": "头像",
+  "style": "电影感",
+  "model": "gpt-image",
+  "prompt": "请根据【菜名】生成一张高完成度竖版「菜谱步骤卡」。\r\n\r\n整体风格干净、温暖、有生活气息，适合小红书和公众号发布。\r\n\r\n图片需要包含：\r\n菜名标题\r\n成品主视觉\r\n食材清单\r\n调料清单\r\n步骤 1 到步骤 6\r\n烹饪时间\r\n难度等级\r\n口味标签\r\n小贴士\r\n\r\n版式要求：\r\n竖版 3:4\r\n信息清楚\r\n步骤图标化\r\n食材视觉真实\r\n整体像一本高级家庭料理书的单页\r\n\r\n不要做成普通菜单海报，要让用户看完就能照着做。",
+  "negative_prompt": "",
+  "tags": [],
+  "aspect_ratio": "",
+  "cover": "image.png",
+  "created_at": "2026-05-04T14:30:14.259Z",
+  "notes": "Imported automatically from inbox."
+}

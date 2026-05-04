@@ -1,0 +1,14 @@
+# Case 0001
+
+## Full Prompt
+
+Prompt:
+1girl, young adult woman in her 20s, ultra-realistic delicate refined East Asian features, soft oval face, slim nose bridge, half-open eyes, lazy dazed expression, slightly parted lips, translucent soft-matte makeup, natural rosy lips, long black-brown straight hair, messy fluffy hair, hair covering one eye, wearing a tall black bunny-ear headband with white lace detail, wearing a black spaghetti-strap camisole with white lace trim, both hands adjusting shoulder straps, detailed hand gestures, visible knuckle shadows, authentic skin texture with visible pores, bathroom mirror selfie, indoor washroom, beige brown-gray tiled wall, towel rack, slightly messy background, phone mirror selfie perspective, vertical 9:16 aspect ratio, close-up half-body shot, holding phone, camera looking slightly upward, slight selfie-angle asymmetry, warm bathroom ceiling downlight, harsh direct top lighting, specular highlights on forehead and shoulders, hair casting shadow on face, warm white balance, localized overexposure, low-resolution phone snapshot, authentic social-media selfie aesthetic, slight noise, compression artifacts, soft focus, slight blur, authentic film grain, no digital over-sharpening, subsurface scattering.
+
+Negative Prompt:
+over polished, plastic skin, studio lighting, luxury bathroom, perfect symmetry, oversexualized pose, wide angle distortion, cartoon bunny ears, heavy makeup, sharp commercial photo, extra fingers, deformed hands, wrong mirror reflection, over-retouched influencer face, cinematic controlled lighting.
+
+## Notes
+
+- 用途：头像
+- 风格：电影感

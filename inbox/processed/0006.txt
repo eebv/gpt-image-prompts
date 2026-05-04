@@ -1,0 +1,5 @@
+Prompt:
+1girl, young African woman, casual home attire, ultra-realistic candid iPhone snapshot, relaxed distracted expression, looking away mid-conversation, authentic natural skin texture, slight skin imperfections, visible pores, no plastic skin, casually sitting on an unmade messy bed, loosely holding a skincare product, natural relaxed hand grip, product not perfectly facing camera, normal Nigerian bedroom environment, messy pillows, visible charger cable, everyday clutter, imperfect off-center framing, slightly uneven natural window daylight, realistic daylight shadows, slight motion blur, digital camera noise, authentic film grain, raw casual snapshot aesthetic, highly detailed, unpolished reality.
+
+Negative Prompt:
+commercial product photography, ad-style posing, studio lighting, perfect glowing skin, plastic skin, over polished, centered perfect composition, heavy makeup, artificial lighting, rim lighting, clean organized room, holding product directly to camera, professional photo shoot, text, watermark, depth of field overkill.

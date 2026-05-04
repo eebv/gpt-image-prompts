@@ -17,9 +17,13 @@
 - 从 `C:\Users\user\Downloads` 导入首条真实案例
 - 从 `C:\Users\user\Downloads` 导入第二条真实案例
 - 增加中英文双版 README / CONTRIBUTING
+- 新增固定投递点 `inbox/`
+- 新增自动导入脚本 `scripts/import-inbox.js`
+- 从 `inbox/` 批量导入 20 组同名图片+提示词
 
 ## 当前进行中
 - 等待补充首批真实案例
+- 当前 `0008.txt` 为空，已自动跳过，仍留在 `inbox/`
 
 ## 下一步
 - 继续导入更多真实案例内容
@@ -30,6 +34,8 @@
 - 后续可继续把 Featured Cases 换成真实案例预览
 - 可继续给首条案例补封面预览图展示
 - 首页案例展示已升级为带序号的 01 / 02
+- 后续只需往 `inbox/` 放同名图片 + 提示词，再运行导入脚本
+- 如需更友好的标题/分类，可继续扩展 sidecar 元数据规则
 
 ## 最近改动文件
 - `PROJECT_CONTEXT.md`
@@ -73,3 +79,7 @@
   - `README.zh-CN.md` 中文版
   - `CONTRIBUTING.md` 英文版
   - `CONTRIBUTING.zh-CN.md` 中文版
+- 本次批量导入后：
+  - `data/prompts.json` 当前共 `22` 条
+  - `examples/头像/电影感/` 当前共 `22` 个案例目录
+  - `inbox/processed/` 已归档 20 组已处理文件

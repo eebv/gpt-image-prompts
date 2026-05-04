@@ -1,0 +1,14 @@
+# Case 0004
+
+## Full Prompt
+
+Prompt:
+2x2 grid layout, multiple views of the same person, 1girl, young woman, natural casual look, ultra-realistic delicate facial features, natural freckles, wearing round tortoiseshell glasses, (top-left: front-facing portrait, direct eye contact, calm expression:1.1), (top-right: extreme macro close-up of eye behind glasses, ultra-detailed iris:1.2), (bottom-left: slightly lower angle portrait, subtle expression:1.1), (bottom-right: side profile portrait, natural pose, looking away:1.1), soft neutral background, minimalist photography studio setup, 85mm lens, shallow depth of field, soft diffused natural lighting, soft shadows, warm neutral color grading, high-end editorial portrait photography, ultra-detailed authentic skin texture, visible skin pores, minimal retouching, subsurface scattering, no digital over-sharpening, 8k, masterpiece.
+
+Negative Prompt:
+ugly, deformed, poorly drawn, plastic skin, over polished, heavily retouched, thick makeup, facial hair, beard, messy background, text, watermarks, distorted glasses, bad eyes, studio artificial harsh lighting, overly saturated, anime, cartoon, illustration, low resolution, blurry.
+
+## Notes
+
+- 用途：头像
+- 风格：电影感
