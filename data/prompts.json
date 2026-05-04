@@ -1,5 +1,28 @@
 [
   {
+    "id": "coffeehouse-golden-hour-portrait",
+    "title": "Coffeehouse Golden Hour Portrait",
+    "use_case": "头像",
+    "style": "电影感",
+    "model": "gpt-image",
+    "prompt": "Ultra-realistic portrait of a stunningly approachable and friendly young Chinese woman, distinctive refined Asian features, radiant natural glowing skin, warm healing smile, expressive sparkling eyes. She is sitting by the window of a stylish modern coffee house. Wearing a fashionable premium oatmeal-colored chunky knit cardigan over a minimalist silk camisole, layered with delicate dainty gold necklaces. One hand gently resting on her cheek, the other holding a latte with intricate foam art. Relaxed and elegant posture, looking at the camera with kindness. Large glass windows reflecting a blurred contemporary Chinese city street scene. Cinematic lighting with soft golden hour sunlight filtering through, creating subtle lens flares and hazy atmosphere. Warm indoor ambient lighting, Rembrandt lighting on her face. Shot with a 35mm lens, f/1.8 aperture, shallow depth of field, creamy bokeh background. Hasselblad medium format quality, 8k resolution, extreme details, visible skin pores, subsurface scattering, realistic clothing fabric texture, no digital over-sharpening, professional editorial fashion photography style.",
+    "negative_prompt": "bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too many fingers, deformed hands, bad arm anatomy, bad leg anatomy, extra limbs, missing limbs, fused limbs, distorted face, bad face anatomy, plastic skin, overly smooth, smooth skin texture, cartoon, illustration, painting, drawing, low quality, worst quality, lowres, blurred, blurry, jpeg artifacts, watermark, text, signature, bad composition, ugly, deformed, noisy",
+    "tags": [
+      "中国女性",
+      "咖啡馆",
+      "黄昏",
+      "治愈感",
+      "窗边光",
+      "胶片感"
+    ],
+    "aspect_ratio": "2:3",
+    "cover": "image.png",
+    "created_at": "2026-05-03",
+    "notes": "现代咖啡馆窗边人像，强调温暖笑容、golden hour 光线、生活方式感与时尚 editorial 质感。",
+    "case_path": "examples/头像/电影感/coffeehouse-golden-hour-portrait",
+    "image_path": "examples/头像/电影感/coffeehouse-golden-hour-portrait/image.png"
+  },
+  {
     "id": "shanghai-bund-rooftop-portrait",
     "title": "Shanghai Bund Rooftop Portrait",
     "use_case": "头像",

@@ -176,23 +176,23 @@ scripts/
 
 ---
 
-## 首条真实案例
+## Featured Cases
 
-第一条真实案例已入库：
+### 01. Shanghai Bund Rooftop Portrait
 
-- [Shanghai Bund Rooftop Portrait](./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/shanghai-bund-rooftop-portrait/)
+- [打开案例目录](./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/shanghai-bund-rooftop-portrait/)
 
-### Output
+#### Output
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/shanghai-bund-rooftop-portrait/image.png" alt="Shanghai Bund Rooftop Portrait" width="360" />
 
-### Prompt
+#### Prompt
 
 ```text
 Today's Portrait, elegant Chinese woman, iconic Shanghai The Bund skyline background with Oriental Pearl Tower and Lujiazui skyscrapers, evening dusk golden hour sunset light, high-rise rooftop terrace setting. Features an exquisite and refined beautiful young Chinese woman, natural facial bone structure, clear sharp jawline, seductive yet serene almond-shaped fox eyes, flawless porcelain skin with visible pores and subsurface scattering, no plastic skin. She is in a highly elegant, relaxed, and sophisticated pose, sitting on a vintage terrace sofa. One hand gently supports her chin, fingers delicate and elongated with visible palm lines, the other hand gracefully resting on her knee. Calm and distant expression, subtle enigmatic smile, looking towards the camera. Wearing an oversized white button-up shirt, made of high-quality linen, loosely unbuttoned at the collar, paired with high-waisted tailored khaki trousers. The fabric subtly moves in the wind. Her long, natural black hair is gently blown by the summer evening breeze, loose strands across her face. 35mm film photography aesthetic, analog black mist filter, authentic film grain, high contrast, warm nostalgic film color grading. Shot on Hasselblad medium format, ultra-high resolution, 8k, highly detailed. Perfect anatomical hand and face details, no digital over-sharpening. Composition focused on her as the serene center within the vibrant urban backdrop, shallow depth of field, beautiful bokeh of city lights.
 ```
 
-### Negative Prompt
+#### Negative Prompt
 
 ```text
 bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too many fingers, deformed hands, bad arm anatomy, bad leg anatomy, extra limbs, missing limbs, fused limbs, distorted face, bad face anatomy, plastic skin, overly smooth, smooth skin texture, cartoon, illustration, painting, drawing, low quality, worst quality, lowres, blurred, blurry, jpeg artifacts, watermark, text, signature, bad composition, ugly, deformed, noisy
@@ -205,6 +205,34 @@ bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too
 - 摄影语言：35mm film aesthetic + black mist filter
 - 人物描述：精致五官 + 松弛姿态 + 风吹发丝
 - 材质细节：亚麻衬衫、皮肤纹理、胶片颗粒
+
+### 02. Coffeehouse Golden Hour Portrait
+
+- [打开案例目录](./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/coffeehouse-golden-hour-portrait/)
+
+#### Output
+
+<img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/coffeehouse-golden-hour-portrait/image.png" alt="Coffeehouse Golden Hour Portrait" width="360" />
+
+#### Prompt
+
+```text
+Ultra-realistic portrait of a stunningly approachable and friendly young Chinese woman, distinctive refined Asian features, radiant natural glowing skin, warm healing smile, expressive sparkling eyes. She is sitting by the window of a stylish modern coffee house. Wearing a fashionable premium oatmeal-colored chunky knit cardigan over a minimalist silk camisole, layered with delicate dainty gold necklaces. One hand gently resting on her cheek, the other holding a latte with intricate foam art. Relaxed and elegant posture, looking at the camera with kindness. Large glass windows reflecting a blurred contemporary Chinese city street scene. Cinematic lighting with soft golden hour sunlight filtering through, creating subtle lens flares and hazy atmosphere. Warm indoor ambient lighting, Rembrandt lighting on her face. Shot with a 35mm lens, f/1.8 aperture, shallow depth of field, creamy bokeh background. Hasselblad medium format quality, 8k resolution, extreme details, visible skin pores, subsurface scattering, realistic clothing fabric texture, no digital over-sharpening, professional editorial fashion photography style.
+```
+
+#### Negative Prompt
+
+```text
+bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too many fingers, deformed hands, bad arm anatomy, bad leg anatomy, extra limbs, missing limbs, fused limbs, distorted face, bad face anatomy, plastic skin, overly smooth, smooth skin texture, cartoon, illustration, painting, drawing, low quality, worst quality, lowres, blurred, blurry, jpeg artifacts, watermark, text, signature, bad composition, ugly, deformed, noisy
+```
+
+这条案例的模块叠加也很明显：
+
+- 场景设定：现代咖啡馆 + 中国城市街景反射
+- 氛围控制：治愈感微笑 + 温暖生活方式氛围
+- 光线控制：golden hour 窗边光 + 柔和 Rembrandt lighting
+- 人物造型：燕麦色针织开衫 + 真丝吊带 + 轻珠宝
+- 镜头语言：35mm 镜头 + 浅景深 + 奶油化背景虚化
 
 ---
 

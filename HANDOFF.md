@@ -15,6 +15,7 @@
 - 将项目定位从“案例库”升级为“提示词工程库”
 - 新增 `principles/`、`modules/`、`recipes/` 结构
 - 从 `C:\Users\user\Downloads` 导入首条真实案例
+- 从 `C:\Users\user\Downloads` 导入第二条真实案例
 - 增加中英文双版 README / CONTRIBUTING
 
 ## 当前进行中
@@ -28,6 +29,7 @@
 - 如需继续，可补仓库 topics / description / social preview
 - 后续可继续把 Featured Cases 换成真实案例预览
 - 可继续给首条案例补封面预览图展示
+- 首页案例展示已升级为带序号的 01 / 02
 
 ## 最近改动文件
 - `PROJECT_CONTEXT.md`
@@ -64,6 +66,8 @@
 - README 新结构已本地复核通过
 - 已导入首条案例：
   - `examples/头像/电影感/shanghai-bund-rooftop-portrait/`
+- 已导入第二条案例：
+  - `examples/头像/电影感/coffeehouse-golden-hour-portrait/`
 - 当前仓库文档已支持：
   - `README.md` 英文版
   - `README.zh-CN.md` 中文版
