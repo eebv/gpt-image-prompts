@@ -28,6 +28,9 @@ The goal is to grow from “someone who can write prompts” into “someone who
 
 ## What problem does this repo solve?
 
+<details>
+<summary>Open</summary>
+
 This project is not trying to answer:
 
 - Can AI generate a good image?
@@ -44,9 +47,14 @@ In short:
 **A good image is not the point.**  
 **Getting good images on purpose is the point.**
 
+</details>
+
 ---
 
 ## Core Idea: Prompt Engineering as Modular Design
+
+<details>
+<summary>Open</summary>
 
 A strong prompt is often not the result of one lucky paragraph.  
 It is the result of multiple modules working together.
@@ -69,9 +77,14 @@ It is teaching you:
 - how to tune variables
 - how to build repeatable control
 
+</details>
+
 ---
 
 ## Repo Structure
+
+<details>
+<summary>Open</summary>
 
 ```text
 principles/
@@ -94,9 +107,14 @@ scripts/
   indexing scripts
 ```
 
+</details>
+
 ---
 
 ## Learning Path
+
+<details>
+<summary>Open</summary>
 
 This repository is designed to grow along a learning path:
 
@@ -137,9 +155,14 @@ Finally validate with actual outputs:
 - which module combination produced which effect
 - which small changes created visible differences
 
+</details>
+
 ---
 
 ## Categories
+
+<details>
+<summary>Open</summary>
 
 Final cases are organized by **use case > style**.  
 Methods and modules are organized by **control dimensions**.
@@ -174,6 +197,8 @@ Methods and modules are organized by **control dimensions**.
 - material detail
 - color control
 - typography
+
+</details>
 
 ---
 
@@ -975,6 +1000,9 @@ bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too
 
 ## For builders, creators, and prompt engineers
 
+<details>
+<summary>Open</summary>
+
 If you are not looking for “one lucky good image,” but for:
 
 - more stable output
@@ -985,9 +1013,14 @@ If you are not looking for “one lucky good image,” but for:
 
 then this repository is for you.
 
+</details>
+
 ---
 
 ## How to use this repo
+
+<details>
+<summary>Open</summary>
 
 You can use this repository as four things:
 
@@ -1007,9 +1040,14 @@ Read `recipes/` to reuse tested prompt formulas.
 
 Read `examples/` to validate how combinations behave in practice.
 
+</details>
+
 ---
 
 ## Data-first, website-ready
+
+<details>
+<summary>Open</summary>
 
 Although this project is built for learning and sharing,  
 its underlying structure is also ready for future websites.
@@ -1028,9 +1066,14 @@ to support:
 - module filtering
 - model filtering
 
+</details>
+
 ---
 
 ## Add a new item
+
+<details>
+<summary>Open</summary>
 
 There are four main contribution directions:
 
@@ -1057,9 +1100,14 @@ Rebuild the index with:
 node scripts/build-index.js
 ```
 
+</details>
+
 ---
 
 ## Vision
+
+<details>
+<summary>Open</summary>
 
 I do not want this to become just another prompt dump.
 
@@ -1071,3 +1119,5 @@ I want it to become a genuinely useful:
 - public-facing project that can later evolve into a real product
 
 If that direction resonates with you, feel free to star the repo.
+
+</details>

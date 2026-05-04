@@ -27,6 +27,9 @@
 
 ## 这个项目解决什么问题？
 
+<details>
+<summary>展开</summary>
+
 这个项目要解决的，不是：
 
 - AI 能不能生成好图
@@ -43,9 +46,14 @@
 **好图不是重点。**  
 **可控地得到好图，才是重点。**
 
+</details>
+
 ---
 
 ## 核心理念：把 Prompt Engineering 当成模块化设计
+
+<details>
+<summary>展开</summary>
 
 一条强 Prompt，很多时候不是“灵机一动写出来的”，  
 而是由多个模块组合出来的。
@@ -68,9 +76,14 @@
 - **怎么调**
 - **怎么稳**
 
+</details>
+
 ---
 
 ## 仓库结构
+
+<details>
+<summary>展开</summary>
 
 ```text
 principles/
@@ -93,9 +106,14 @@ scripts/
   索引生成脚本
 ```
 
+</details>
+
 ---
 
 ## 学习路径
+
+<details>
+<summary>展开</summary>
 
 这个库后面会按下面这条学习路径逐步长出来：
 
@@ -136,9 +154,14 @@ scripts/
 - 什么模块组合出了什么效果
 - 哪些微调会让结果明显变化
 
+</details>
+
 ---
 
 ## 分类方式
+
+<details>
+<summary>展开</summary>
 
 按 **用途 > 风格** 组织最终案例；  
 按 **控制维度** 组织方法与模块。
@@ -173,6 +196,8 @@ scripts/
 - 材质细节
 - 色彩控制
 - 文字排版
+
+</details>
 
 ---
 
@@ -974,6 +999,9 @@ bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too
 
 ## 适合谁
 
+<details>
+<summary>展开</summary>
+
 如果你想要的不是“偶尔出一张好图”，  
 而是：
 
@@ -985,9 +1013,14 @@ bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too
 
 那这个库就是给你准备的。
 
+</details>
+
 ---
 
 ## 怎么使用这个仓库
+
+<details>
+<summary>展开</summary>
 
 你可以把这个仓库当成 4 样东西：
 
@@ -1007,9 +1040,14 @@ bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too
 
 看 `examples/`，验证模块组合后的最终效果。
 
+</details>
+
 ---
 
 ## Data-first，网站友好
+
+<details>
+<summary>展开</summary>
 
 虽然这个项目强调传播和学习，  
 但底层仍然是为后期网站准备好的。
@@ -1028,9 +1066,14 @@ bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too
 - 模块筛选
 - 模型筛选
 
+</details>
+
 ---
 
 ## 新增内容
+
+<details>
+<summary>展开</summary>
 
 后续新增内容时，可以有 4 种方向：
 
@@ -1057,9 +1100,14 @@ examples/<用途>/<风格>/<案例ID>/
 node scripts/build-index.js
 ```
 
+</details>
+
 ---
 
 ## Vision
+
+<details>
+<summary>展开</summary>
 
 我希望这个项目最后变成的不是“又一个 Prompt 收集仓库”，  
 而是一个真正有用的：
@@ -1070,3 +1118,5 @@ node scripts/build-index.js
 - 可公开传播、也可继续产品化的网站底座
 
 如果你也认同这个方向，欢迎 Star。
+
+</details>
