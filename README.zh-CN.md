@@ -186,7 +186,10 @@ scripts/
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0021/image.png" alt="Case 0021" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 请根据{主题}自动生成一张“博物馆图鉴式中文拆解信息图”。
@@ -206,12 +209,15 @@ scripts/
 
 避免：海报感、影楼感、电商感、动漫感、cosplay感、乱标注、错结构、糊字、假材质、过度装饰。
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 02. Case 0020
 
@@ -221,17 +227,23 @@ scripts/
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0020/image.png" alt="Case 0020" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 你是一位世界级游戏与动漫概念设计大师，擅长制作 “深度拆解式角色设定图”。你的能力包括：• 像素级结构推理 • 多层服装与配件透视 • 情绪微表情分析 • 物品与材质的真实还原 • 基于性格推理日常物品（而非简单套用模版）[创作目标] 严格基于用户提供的角色形象（照片 / 描述），生成一张完整的全景式角色概念分解图（横图），风格专业、逻辑自洽、生活化厚度高。 图中必须包含： 1.中心人物全身立绘（标准姿势或轻动态） 2.围绕人物的拆解元素：服装/表情/材质/随身物品/武器横置展示3.生活物件 + 私密物品 + 化妆品 + 包内物展示，可以发散思维4.材质与细节放大图5.手写风注释 + 引导线 6.生成一张包含所有这些元素的组合图，确保透视准确，光影统一，注释清晰7.背景: 使用米黄色、羊皮纸或浅灰色纹理背景，营造设计手稿的氛围。[构图规范] 1.中心主体（最大块）• 全身立绘，光影统一 • 姿势自然、专业 • 保持概念设计美术的规范比例2.环绕拆解区（有序排列）使用结构化的环绕展示方式，包含： • 服装分层展示（外套 → 内层 → 配件 → 鞋袜）• 头部表情集（3–4 个不同情绪）• 材质特写（皮革/金属/织物/饰品）• 随身包袋与内容物 : 绘制角色的日常通勤包或手拿包，并将其“打开”，展示散落在旁的物品。 • 化妆品 / 护理用品组合 • “私密物品”展示（基于人物性格推理，不落入刻板类型）[深度拆解要求]1. 服装分层（多样化）根据角色性格、职业、生活习惯自动生成：运动型，干练型，文艺，冷酷型2. 表情集 • 3–4 个头部特写（注意原图角色特征）• 每个展示不同微表达层次：• 微笑 • 若有所思 • 紧张 • 放松3. 材质特写 • 放大关键材质（皮革、金属、织物纹理） • 展示光泽、粗糙度、纹理深度 • 增加“物品材质变化”而不是重复一种4. 随身与私密物品（去套路化）围绕“角色真实生活方式”推理其物品，而非随机择取： • 工作相关物 • 兴趣物品 • 小型收藏 • 日常药品 / 维生素 • 使用痕迹 • 不作无意义性感化处理[约束]使用中文，注意检查中文是否错误
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 03. Case 0019
 
@@ -241,7 +253,10 @@ scripts/
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0019/image.png" alt="Case 0019" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 中文版】
@@ -261,12 +276,15 @@ scripts/
 [风格与渲染]
 忠于经典东方奇幻史诗设定的高品质二次元动漫插画。笔触细腻如同官方顶级原画级别（Official Art）。4K超高清画质，无噪点、无伪影，具备可直接用作桌面壁纸或史诗级海报的极致完成度。
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 04. Case 0018
 
@@ -276,7 +294,10 @@ scripts/
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0018/image.png" alt="Case 0018" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 Prompt:
@@ -285,12 +306,15 @@ cinematic vertical movie poster, modern military realism, modern warfare, 1girl,
 Negative Prompt:
 ugly, deformed, poorly drawn, plastic skin, digital over-sharpening, overly retouched, unnatural anatomy, bad hands, extra fingers, missing fingers, floating limbs, cartoon, illustration, anime, low resolution, blurry, studio artificial lighting, over-saturated, bright colors, clean uniform, smiling faces, cheerful mood, non-military equipment, civilian background.
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 05. Case 0017
 
@@ -300,7 +324,10 @@ ugly, deformed, poorly drawn, plastic skin, digital over-sharpening, overly reto
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0017/image.png" alt="Case 0017" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 请根据【菜名】生成一张高完成度竖版「菜谱步骤卡」。
@@ -327,12 +354,15 @@ ugly, deformed, poorly drawn, plastic skin, digital over-sharpening, overly reto
 
 不要做成普通菜单海报，要让用户看完就能照着做。
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 06. Case 0016
 
@@ -342,7 +372,10 @@ ugly, deformed, poorly drawn, plastic skin, digital over-sharpening, overly reto
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0016/image.png" alt="Case 0016" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 【中文版】
@@ -375,12 +408,15 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 [风格与渲染]
 顶级的高端职业肖像与个人品牌摄影（High-end professional portraiture）。极其注重真实感的物理渲染，8K分辨率，肤质生动自然，呈现出适合于官网、LinkedIn、小红书的顶级商业人像大片。
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 07. Case 0015
 
@@ -390,7 +426,10 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0015/image.png" alt="Case 0015" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 【中文版】
@@ -408,12 +447,15 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 [风格与渲染]
 首尔高端美发沙龙/形象定制视觉报告风格。极度写实的摄影质感与精美的平面排版相结合，摒弃重度磨皮的网红滤镜感（保留真实皮肤毛孔），8K超高分辨率，呈现出极具权威感与参考价值的专业发型图鉴。
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 08. Case 0014
 
@@ -423,7 +465,10 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0014/image.png" alt="Case 0014" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 请生成一张适合小红书发布的【城市】三天旅游攻略信息图。
@@ -443,12 +488,15 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 
 整体排版要像一张高收藏旅游攻略卡，信息清楚，模块分明，适合用户截图保存。画面要有城市地标、路线箭头、小图标、时间轴和清晰标题。
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 09. Case 0013
 
@@ -458,7 +506,10 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0013/image.png" alt="Case 0013" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 请根据【主题】生成一张高质量竖版「科普百科图」。
@@ -488,12 +539,15 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 
 视觉要求：浅色干净背景，柔和配色，轻阴影，精致小图标，圆角信息框，整洁排版，信息密度高但不拥挤。
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 10. Case 0012
 
@@ -503,7 +557,10 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0012/image.png" alt="Case 0012" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 个人色彩 × 风格总诊断页 (Overall Diagnosis)
@@ -521,12 +578,15 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 [风格与渲染]
 小红书高赞形象顾问分析报告风格，8K高清写实，极具专业知性与轻奢质感。
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 11. Case 0011
 
@@ -536,7 +596,10 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0011/image.png" alt="Case 0011" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 画面呈现类似高端配镜顾问提案板的专业图文排版。包含清晰的中文与辅助英文文本：大标题“AI 眼镜风格适配报告 / Before & After Glasses Style Matching Report”，以及各个板块标签“Before 原始状态”、“After 主推推荐”、“Face Shape 脸型”、“Feature Weight 五官量感”、“Nose Bridge 鼻梁条件”、“Frame Width Fit 镜框宽度适配”、“Best Options 推荐区”、“Worth Trying 可尝试区”、“Less Flattering 不推荐区”和底部的“Glasses Guide”。画面右下角清晰地带有小巧的手写体签名文本“eebv”。
@@ -557,12 +620,15 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 [风格与渲染]
 高端形象管理视觉报告风格。极致的写实摄影与精美平面设计的结合，8K超高分辨率。彻底摒弃过度磨皮的美颜滤镜感，保留真实的毛孔与皮肤细节，呈现出极具说服力与参考价值的专业配镜图鉴。
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 12. Case 0010
 
@@ -572,7 +638,10 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0010/image.png" alt="Case 0010" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 [文字内容]
@@ -588,12 +657,15 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 [风格与渲染]
 首尔买手店（Seoul select shop）高阶时尚Lookbook风格。结合了极其逼真的真人摄影与精美的平面设计排版，画面清晰锐利（8K分辨率），写实感极强，具有真实可参考的穿搭指南属性。
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 13. Case 0009
 
@@ -603,7 +675,10 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0009/image.png" alt="Case 0009" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 1girl, live-action cosplay of [Name], photorealistic young woman, ultra-realistic skin texture, multiple views, 4-page magazine layout, fashion magazine spread, photo collage, wearing various different swimsuits, diverse colors and patterns, different hairstyles, varied dynamic poses, no repeated poses, expressive faces, (shy:1.1), (seductively biting lip:1.1), confident expression, playful tongue out, magazine title, stylish catchphrases, typography, small handwritten signature text "eebv" in the bottom-right corner, clean professional lighting, clear atmosphere, minimal visual effects, no excessive glitter, no heavy grain, perfect anatomy, accurate limbs, harmonious and well-balanced composition, highly detailed, 8k, masterpiece, fashion editorial photography.
@@ -611,12 +686,15 @@ LinkedIn头像（右上）：身穿现代商务休闲装（Smart Casual），展
 Negative Prompt:
 ugly, deformed, poorly drawn, bad anatomy, bad hands, extra fingers, missing limbs, distorted limbs, messy layout, excessive glitter, heavy noise, overly dramatic lighting, over-sharpened, cluttered background, cartoon, 3d render, illustration, text outside of layout design.
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 14. Case 0007
 
@@ -626,7 +704,10 @@ ugly, deformed, poorly drawn, bad anatomy, bad hands, extra fingers, missing lim
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0007/image.png" alt="Case 0007" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 Japanese negative film aesthetic, late-night last train scene, soft cold fluorescent lighting mixed with subtle motion blur, slight overexposure highlights, low contrast, muted desaturated tones, subtle film grain, candid snapshot feeling, imperfect composition
@@ -645,12 +726,15 @@ hair: slightly messy natural dark hair, soft strands falling around the face, su
 
 mood: quiet, intimate, late-night solitude, “moment between moments”, subtle sensuality through natural posture and accidental exposure, not posed, not performative
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 15. Case 0006
 
@@ -660,7 +744,10 @@ mood: quiet, intimate, late-night solitude, “moment between moments”, subtle
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0006/image.png" alt="Case 0006" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 Prompt:
@@ -669,12 +756,15 @@ Prompt:
 Negative Prompt:
 commercial product photography, ad-style posing, studio lighting, perfect glowing skin, plastic skin, over polished, centered perfect composition, heavy makeup, artificial lighting, rim lighting, clean organized room, holding product directly to camera, professional photo shoot, text, watermark, depth of field overkill.
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 16. Case 0005
 
@@ -684,7 +774,10 @@ commercial product photography, ad-style posing, studio lighting, perfect glowin
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0005/image.png" alt="Case 0005" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 Prompt:
@@ -693,12 +786,15 @@ character sheet, concept art, 1girl, young woman, multiple views, scrapbook layo
 Negative Prompt:
 ugly, deformed, poorly drawn, poorly written text, bad anatomy, bad hands, extra fingers, missing fingers, floating limbs, messy layout, over-saturated, bright neon colors, photorealistic, 3d render, low resolution, blurry, chaotic composition, completely different characters in views.
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 17. Case 0004
 
@@ -708,7 +804,10 @@ ugly, deformed, poorly drawn, poorly written text, bad anatomy, bad hands, extra
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0004/image.png" alt="Case 0004" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 Prompt:
@@ -717,12 +816,15 @@ Prompt:
 Negative Prompt:
 ugly, deformed, poorly drawn, plastic skin, over polished, heavily retouched, thick makeup, facial hair, beard, messy background, text, watermarks, distorted glasses, bad eyes, studio artificial harsh lighting, overly saturated, anime, cartoon, illustration, low resolution, blurry.
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 18. Case 0003
 
@@ -732,7 +834,10 @@ ugly, deformed, poorly drawn, plastic skin, over polished, heavily retouched, th
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0003/image.png" alt="Case 0003" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 Prompt:
@@ -741,12 +846,15 @@ Prompt:
 Negative Prompt:
 low resolution, blurry, incorrect anatomy, extra fingers, distorted face, deformed cat, deformed hands, weak perspective, dark lighting, image noise, digital art, cartoon, illustration, anime, poor proportions, bad framing.
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 19. Case 0002
 
@@ -756,7 +864,10 @@ low resolution, blurry, incorrect anatomy, extra fingers, distorted face, deform
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0002/image.png" alt="Case 0002" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 Prompt:
@@ -765,12 +876,15 @@ The word "GenAngels" explicitly and naturally engraved on the wooden structure a
 Negative Prompt:
 ugly, deformed, poorly drawn, plastic skin, digital over-sharpening, overly retouched, unnatural anatomy, bad hands, extra fingers, missing fingers, floating limbs, cartoon, illustration, anime, low resolution, bad text, misspelled, watermark, blurry, studio artificial lighting, over-saturated.
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 20. Case 0001
 
@@ -780,7 +894,10 @@ ugly, deformed, poorly drawn, plastic skin, digital over-sharpening, overly reto
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/0001/image.png" alt="Case 0001" width="360" />
 
-#### Prompt
+**关键词：** 提示词工程 · 视觉控制
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 Prompt:
@@ -789,12 +906,15 @@ Prompt:
 Negative Prompt:
 over polished, plastic skin, studio lighting, luxury bathroom, perfect symmetry, oversexualized pose, wide angle distortion, cartoon bunny ears, heavy makeup, sharp commercial photo, extra fingers, deformed hands, wrong mirror reflection, over-retouched influencer face, cinematic controlled lighting.
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 
 ```
+</details>
 
 ### 21. Coffeehouse Golden Hour Portrait
 
@@ -804,17 +924,23 @@ over polished, plastic skin, studio lighting, luxury bathroom, perfect symmetry,
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/coffeehouse-golden-hour-portrait/image.png" alt="Coffeehouse Golden Hour Portrait" width="360" />
 
-#### Prompt
+**关键词：** 中国女性 · 咖啡馆 · 黄昏 · 治愈感 · 窗边光 · 胶片感
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 Ultra-realistic portrait of a stunningly approachable and friendly young Chinese woman, distinctive refined Asian features, radiant natural glowing skin, warm healing smile, expressive sparkling eyes. She is sitting by the window of a stylish modern coffee house. Wearing a fashionable premium oatmeal-colored chunky knit cardigan over a minimalist silk camisole, layered with delicate dainty gold necklaces. One hand gently resting on her cheek, the other holding a latte with intricate foam art. Relaxed and elegant posture, looking at the camera with kindness. Large glass windows reflecting a blurred contemporary Chinese city street scene. Cinematic lighting with soft golden hour sunlight filtering through, creating subtle lens flares and hazy atmosphere. Warm indoor ambient lighting, Rembrandt lighting on her face. Shot with a 35mm lens, f/1.8 aperture, shallow depth of field, creamy bokeh background. Hasselblad medium format quality, 8k resolution, extreme details, visible skin pores, subsurface scattering, realistic clothing fabric texture, no digital over-sharpening, professional editorial fashion photography style.
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too many fingers, deformed hands, bad arm anatomy, bad leg anatomy, extra limbs, missing limbs, fused limbs, distorted face, bad face anatomy, plastic skin, overly smooth, smooth skin texture, cartoon, illustration, painting, drawing, low quality, worst quality, lowres, blurred, blurry, jpeg artifacts, watermark, text, signature, bad composition, ugly, deformed, noisy
 ```
+</details>
 
 ### 22. Shanghai Bund Rooftop Portrait
 
@@ -824,17 +950,23 @@ bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too
 
 <img src="./examples/%E5%A4%B4%E5%83%8F/%E7%94%B5%E5%BD%B1%E6%84%9F/shanghai-bund-rooftop-portrait/image.png" alt="Shanghai Bund Rooftop Portrait" width="360" />
 
-#### Prompt
+**关键词：** 中国女性 · 上海外滩 · 黄昏 · 胶片感 · 城市夜景 · 高级感
+
+<details>
+<summary>Full Prompt</summary>
 
 ```text
 Today's Portrait, elegant Chinese woman, iconic Shanghai The Bund skyline background with Oriental Pearl Tower and Lujiazui skyscrapers, evening dusk golden hour sunset light, high-rise rooftop terrace setting. Features an exquisite and refined beautiful young Chinese woman, natural facial bone structure, clear sharp jawline, seductive yet serene almond-shaped fox eyes, flawless porcelain skin with visible pores and subsurface scattering, no plastic skin. She is in a highly elegant, relaxed, and sophisticated pose, sitting on a vintage terrace sofa. One hand gently supports her chin, fingers delicate and elongated with visible palm lines, the other hand gracefully resting on her knee. Calm and distant expression, subtle enigmatic smile, looking towards the camera. Wearing an oversized white button-up shirt, made of high-quality linen, loosely unbuttoned at the collar, paired with high-waisted tailored khaki trousers. The fabric subtly moves in the wind. Her long, natural black hair is gently blown by the summer evening breeze, loose strands across her face. 35mm film photography aesthetic, analog black mist filter, authentic film grain, high contrast, warm nostalgic film color grading. Shot on Hasselblad medium format, ultra-high resolution, 8k, highly detailed. Perfect anatomical hand and face details, no digital over-sharpening. Composition focused on her as the serene center within the vibrant urban backdrop, shallow depth of field, beautiful bokeh of city lights.
 ```
+</details>
 
-#### Negative Prompt
+<details>
+<summary>Negative Prompt</summary>
 
 ```text
 bad anatomy, distorted hands, extra fingers, missing fingers, fused fingers, too many fingers, deformed hands, bad arm anatomy, bad leg anatomy, extra limbs, missing limbs, fused limbs, distorted face, bad face anatomy, plastic skin, overly smooth, smooth skin texture, cartoon, illustration, painting, drawing, low quality, worst quality, lowres, blurred, blurry, jpeg artifacts, watermark, text, signature, bad composition, ugly, deformed, noisy
 ```
+</details>
 
 <!-- FEATURED_CASES_END -->
 

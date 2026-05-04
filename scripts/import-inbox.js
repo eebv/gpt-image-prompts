@@ -194,6 +194,9 @@ function featuredBlockEn(item, index) {
   const img = item.image_path.replace(/\\/g, "/");
   const folder = item.case_path.replace(/\\/g, "/");
   const neg = item.negative_prompt || "";
+  const keywords = Array.isArray(item.tags) && item.tags.length
+    ? item.tags.join(" · ")
+    : "Prompt Engineering · Visual Control";
   return [
     `### ${n}. ${item.title}`,
     "",
@@ -203,17 +206,23 @@ function featuredBlockEn(item, index) {
     "",
     `<img src="./${encodeURI(img).replace(/#/g, "%23")}" alt="${item.title}" width="360" />`,
     "",
-    "#### Prompt",
+    `**Keywords:** ${keywords}`,
+    "",
+    "<details>",
+    "<summary>Full Prompt</summary>",
     "",
     "```text",
     item.prompt || "",
     "```",
+    "</details>",
     "",
-    "#### Negative Prompt",
+    "<details>",
+    "<summary>Negative Prompt</summary>",
     "",
     "```text",
     neg,
     "```",
+    "</details>",
     ""
   ].join("\n");
 }
@@ -223,6 +232,9 @@ function featuredBlockZh(item, index) {
   const img = item.image_path.replace(/\\/g, "/");
   const folder = item.case_path.replace(/\\/g, "/");
   const neg = item.negative_prompt || "";
+  const keywords = Array.isArray(item.tags) && item.tags.length
+    ? item.tags.join(" · ")
+    : "提示词工程 · 视觉控制";
   return [
     `### ${n}. ${item.title}`,
     "",
@@ -232,17 +244,23 @@ function featuredBlockZh(item, index) {
     "",
     `<img src="./${encodeURI(img).replace(/#/g, "%23")}" alt="${item.title}" width="360" />`,
     "",
-    "#### Prompt",
+    `**关键词：** ${keywords}`,
+    "",
+    "<details>",
+    "<summary>Full Prompt</summary>",
     "",
     "```text",
     item.prompt || "",
     "```",
+    "</details>",
     "",
-    "#### Negative Prompt",
+    "<details>",
+    "<summary>Negative Prompt</summary>",
     "",
     "```text",
     neg,
     "```",
+    "</details>",
     ""
   ].join("\n");
 }
