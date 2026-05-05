@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "build:index": "node scripts/build-index.js",
-    "import:inbox": "node scripts/import-inbox.js"
+    "build:site-data": "node scripts/build-site-data.js",
+    "import:inbox": "node scripts/import-inbox.js",
+    "import:freestylefly:sample": "node scripts/import-freestylefly-sample.js"
   }
 }

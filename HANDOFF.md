@@ -24,26 +24,39 @@
 ## 当前进行中
 - 等待补充首批真实案例
 - 当前 `0008.txt` 为空，已自动跳过，仍留在 `inbox/`
+- 网站方向已调整为：
+  - 参考第三方 GPT-image 内容库
+  - 通过同步脚本抽取内容
+  - 图片直传 R2
+  - 前端直接消费结构化网站数据
+- 网站样板版已完成：
+  - 暗色图流
+  - 搜索
+  - 分类 chip
+  - 点图看 Prompt
+  - Source 显示
+  - 当前先用 `freestylefly/awesome-gpt-image-2` 的 8 条样板案例预览效果
 
 ## 下一步
-- 继续导入更多真实案例内容
-- 准备首批方法论 / 模块 / 配方内容
-- 可补一个示例案例作为演示
-- 可继续加一个批量创建案例模板的小脚本
-- 如需继续，可补仓库 topics / description / social preview
-- 后续可继续把 Featured Cases 换成真实案例预览
-- 可继续给首条案例补封面预览图展示
-- 首页案例展示已升级为带序号的 01 / 02
-- 后续只需往 `inbox/` 放同名图片 + 提示词，再运行导入脚本
-- 如需更友好的标题/分类，可继续扩展 sidecar 元数据规则
+- 把网站样板版 push 到 GitHub 供用户先看效果
+- 用户确认视觉方向后：
+  - 扩成全量同步
+  - 接 Cloudflare R2
+  - 生成正式网站数据
 
 ## 最近改动文件
 - `PROJECT_CONTEXT.md`
 - `HANDOFF.md`
+- `.gitignore`
+- `index.html`
+- `site.css`
+- `site.js`
 - `README.md`
 - `CONTRIBUTING.md`
 - `package.json`
 - `scripts/build-index.js`
+- `scripts/build-site-data.js`
+- `scripts/import-freestylefly-sample.js`
 - `templates/case/*`
 - `data/*.json`
 
@@ -83,3 +96,6 @@
   - `data/prompts.json` 当前共 `22` 条
   - `examples/头像/电影感/` 当前共 `22` 个案例目录
   - `inbox/processed/` 已归档 20 组已处理文件
+- 样板站点数据已生成：
+  - `data/site-cases.json`
+  - 当前为 `freestylefly/awesome-gpt-image-2` 的 8 条样板案例

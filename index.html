@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPT-image Prompt Engineering</title>
+    <meta
+      name="description"
+      content="暗色高级感 GPT-image Prompt 图流网站，支持图片流、分类筛选、搜索、点图查看 Prompt。"
+    />
+    <link rel="stylesheet" href="./site.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-badge">⚡</span>
+          <div>
+            <div class="brand-title">GPT-image Prompt Engineering</div>
+            <div class="brand-subtitle">Prompt Gallery · Template Thinking · Remix Fast</div>
+          </div>
+        </div>
+        <nav class="topnav">
+          <a href="./README.md" target="_blank" rel="noreferrer">GitHub</a>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="hero">
+          <div class="hero-copy">
+            <div class="hero-chip">Image Flow · Search · Categories</div>
+            <h1>先看图，再点开 Prompt。</h1>
+            <p>
+              先用第三方高质量案例做样板站点。支持搜索、分类筛选、风格筛选、点图查看 Prompt / Negative Prompt / Source。
+            </p>
+          </div>
+          <div class="hero-search">
+            <label class="search-box">
+              <span>⌕</span>
+              <input id="searchInput" type="search" placeholder="搜索案例、类别、Prompt..." />
+            </label>
+          </div>
+        </section>
+
+        <section class="filters-panel">
+          <div class="filter-group">
+            <div class="filter-label">类别</div>
+            <div class="chip-row" id="categoryChips"></div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-label">风格</div>
+            <div class="chip-row" id="styleChips"></div>
+          </div>
+        </section>
+
+        <section class="stats-row">
+          <div class="stats-left"><span id="resultCount">0</span> 个案例</div>
+          <div class="stats-right">点击图片查看完整 Prompt</div>
+        </section>
+
+        <section class="gallery" id="gallery"></section>
+      </main>
+    </div>
+
+    <div class="modal-backdrop hidden" id="modalBackdrop">
+      <div class="modal">
+        <button class="modal-close" id="modalClose" aria-label="关闭">✕</button>
+        <div class="modal-media">
+          <img id="modalImage" alt="" />
+        </div>
+        <div class="modal-content">
+          <div class="modal-meta">
+            <span class="pill" id="modalCategory"></span>
+            <span class="pill" id="modalStyle"></span>
+          </div>
+          <h2 id="modalTitle"></h2>
+          <p class="modal-keywords" id="modalKeywords"></p>
+          <div class="source-line" id="modalSourceWrap">
+            <span class="source-label">Source</span>
+            <a id="modalSource" target="_blank" rel="noreferrer"></a>
+          </div>
+
+          <div class="prompt-block">
+            <div class="prompt-head">
+              <h3>Prompt</h3>
+              <button class="copy-btn" id="copyPromptBtn">复制</button>
+            </div>
+            <pre id="modalPrompt"></pre>
+          </div>
+
+          <div class="prompt-block">
+            <div class="prompt-head">
+              <h3>Negative Prompt</h3>
+              <button class="copy-btn" id="copyNegativeBtn">复制</button>
+            </div>
+            <pre id="modalNegative"></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./site.js" type="module"></script>
+  </body>
+</html>

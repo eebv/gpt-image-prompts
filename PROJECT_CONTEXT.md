@@ -70,3 +70,29 @@ github-eebv-gpt-image2
 - 仓库地址：
   - `https://github.com/eebv/gpt-image-prompts`
 - 当前本地目录已初始化 git 并成功推送到 `main`
+
+## 网站与内容同步方向
+- 当前项目后续不再以“手工导入第三方图库内容”为主路径
+- 新默认方向：
+  - 以第三方参考库为内容源
+  - 通过 token 非交互 clone / fetch / API 拉取
+  - 通过 importer / transform 脚本提取图片、prompt、分类
+  - 图片优先上传 R2
+  - 网站前端消费结构化 JSON + R2 图片链接
+- 结论：
+  - 先做内容同步管道
+  - 再做展示层优化
+
+## 当前网站样板实现
+- 已新增本地静态前端样板：
+  - `index.html`
+  - `site.css`
+  - `site.js`
+- 已新增网站数据生成相关脚本：
+  - `scripts/build-site-data.js`
+  - `scripts/import-freestylefly-sample.js`
+- 当前采用“少量样板案例先看效果”的策略：
+  - 从 `freestylefly/awesome-gpt-image-2` 抓取 8 条样板案例
+  - 直接引用源仓库 raw 图片 URL
+  - 详情弹层显示 Prompt / Negative Prompt / Source
+- 这一步是视觉与交互样板，不是最终 R2 全量同步版
